@@ -1,5 +1,8 @@
 # robofriends
-Tutorial for udemy course - React
+React
+
+[Demo](https://christinetrant.github.io/robofriends/)
+
 To run the project:
 
 1. Clone this repo
