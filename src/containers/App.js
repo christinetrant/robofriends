@@ -34,13 +34,7 @@ class App extends Component {
 	// when component 'mounts' we set robots to equal robots array from robots.js:
 	// instead of fetching array we get user info from jsonplaceholder then we convert response into JSON then we set that to equal the robots array
 	componentDidMount() {
-		fetch("https://jsonplaceholder.typicode.com/users", {
-	    mode: "cors",
-	    headers: {
-	      "Access-Control-Allow-Origin": 
-	        "https://jsonplaceholder.typicode.com/",
-	    },
-	  })
+		fetch("https://jsonplaceholder.typicode.com/users")
 			.then(response => response.json())
 			.then(users => this.setState({ robots: users }));
 		// this.setState({ robots: robots })
