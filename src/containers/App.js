@@ -60,7 +60,7 @@ class App extends Component {
 			(
 				<div className='tc'>
 					<h1 className='light-green'>RoboFriends</h1>
-					<h1 className='tc light-green'>Loading</h1>
+					<h1 className='tc light-green loading'>Loading...</h1>
 				</div>
 			) :
 			(
