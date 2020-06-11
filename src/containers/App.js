@@ -63,7 +63,12 @@ class App extends Component {
 		
 		// if(robots.length === 0) {
 		return !robots.length ?	
-			<h1 className='tc light-green'>Loading</h1>	:
+			(
+				<div className='tc'>
+					<h1 className='light-green'>RoboFriends</h1>
+					<h1 className='tc light-green'>Loading</h1>
+				</div>
+			) :
 			(
 				<div className='tc'>
 					<h1 className='light-green'>RoboFriends</h1>
